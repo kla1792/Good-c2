@@ -1,0 +1,12 @@
+{
+    "purple": {
+      "from_color": "#6C3DFF",
+      "to_color": "#a588ff",
+      "background": false
+    },
+    "background": {
+      "from_color": "#5f00af",
+      "to_color": "#5f5fd7",
+      "background": true
+    }
+}

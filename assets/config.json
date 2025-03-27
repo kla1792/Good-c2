@@ -1,0 +1,15 @@
+{
+  "cnc": {
+    "port": "2222",
+    "api_port": "8080",
+    "attacks_enabled": true,
+    "global_cooldown": 0,
+    "global_slots": 10
+  },
+  "mysql": {
+    "db_user": "root",
+    "db_pass": "vDG#eSnIR!.2-M[u^oa0Jh_C;xDR2P}`SjG",
+    "db_host": "localhost",
+    "db_name": "galaxiac2"
+  }
+}
